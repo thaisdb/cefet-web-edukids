@@ -67,9 +67,15 @@
  *
  */
 
-.comecar,
-.parar {}
+.comecar, .parar {
+    width: 24px;
+    height: 29px;
+    background-image: url('imgs/sprite-controles.png');
+}
 
-.comecar {}
-
-.parar {}
+.comecar {
+    background-position: 0px 0px;
+}
+.parar {
+    background-position: 0px 29px;
+}
